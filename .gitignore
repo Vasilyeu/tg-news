@@ -1,5 +1,6 @@
 .qodo
 .ruff_cache
 .venv
+.DS_Store
 cron_job.sh
 token.env
