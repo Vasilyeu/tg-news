@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "tg-news"
+version = "0.1.0"
+description = "News generator for Telegram Channels"
+authors = ["Sergey Vasilev"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-telegram-bot = "^21.8"
+feedparser = "^6.0.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^6.0.0"
+
+[tool.ruff.lint]
+extend-select = [
+  "UP",  # pyupgrade
+  "D",   # pydocstyle
+  "E",
+  "F",
+  "UP",
+  "B",
+  "SIM",
+  "I",
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint.extend-per-file-ignores]
+"__init__.py" = ["D104"]

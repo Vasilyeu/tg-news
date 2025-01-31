@@ -1,0 +1,5 @@
+.qodo
+.ruff_cache
+.venv
+cron_job.sh
+token.env
