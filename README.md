@@ -2,7 +2,7 @@
 Read RSS feeds and post news to Telegram Channel 
 
 ## Usage  
-1. Create filr feeds.json with format:  
+1. Create file feeds.json with format:  
 [  
     {  
         "channel": "Latest News",  # Telegram channel name  
@@ -11,4 +11,4 @@ Read RSS feeds and post news to Telegram Channel
     }  
 ]  
 2. Run script  
-python main.py  
+python main.py
