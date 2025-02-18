@@ -1,4 +1,4 @@
-"""Application for sending news from RSS feed to Telegram Channel."""
+"""Application for sending news from RSS feed to Telegram Channel. """
 
 import asyncio
 import json
